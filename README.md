@@ -4,16 +4,6 @@ This repo contains the notebooks, datasets, and server code that you'll need for
 
 Fork this repo to your own GitHub account, and clone a local version on your machine.
 
-## Running this repo with Docker
+## Running the notebooks in Colab
 
-The notebooks in this repo use Spark. To get a Spark instance running locally, you'll need to launch these notebooks within a Thinkful-made Docker container.
-
-Use the following command to start the container, replacing `/path/to/big-data-student-resources` with the local path that corresponds to this repo on your machine:
-
-```
-docker run -d --rm -p 8888:8888 -v /path/to/big-data-student-resources:/home/ds/notebooks thinkfulstudent/pyspark:2.2.1
-```
-
-Go to [`localhost:8888/tree`](localhost:8888/tree) in your browser to access your notebooks. 
-
-For full instructions on setting up Docker, refer back to [this assignment](https://courses.thinkful.com/data-201v1/assignment/6.8.2).
+To run the notebooks in this repo, we suggest uploading them to Colab. For instructions on setting up the Colab environment, refer back to the checkpoint, "[Up and running with Colaboratory](https://courses.thinkful.com/dsbc-big-data-spark-v1/checkpoint/3)."
